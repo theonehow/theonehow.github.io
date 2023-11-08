@@ -1,0 +1,184 @@
+/* Imported Font v */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+
+/* Style Sheet for the body Boxes */
+
+/* First Block Elements */
+#TL {
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+}
+
+#Header { /* IRISH Com Bold and background color */
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+    font-size: large;
+}
+
+#P1 {  /* Photo in TL */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    height: 200px;
+}
+
+#P2 {  /* Photo in 2nd box from the TL */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    height: 200px;
+    padding: inherit;
+    margin-top: 75px;
+}
+
+#P3 {  /* Photo in 3rd box from the TL */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 295px;
+    height: 200px;
+    padding: inherit;
+    margin-top: 110px;
+}
+
+#LES {
+    font-size: 90%;
+}
+
+#HL {
+    font-size: 90%;
+}
+
+.R1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.R2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.R3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.R4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Start of Cretabilty tag Segment */
+
+#CBT {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 19.64%;
+    height: 40px;
+    background-color: rgb(241, 156, 27);
+}
+
+#CBTOH {
+    background-color: rgb(241, 156, 27);
+}
+
+#TOH {
+    background-color: rgb(241, 156, 27);
+    text-align: center;
+}
+
+#IL {
+    display: flex;
+    margin-left: 5px;
+    float: right;
+    height: 100px;
+    width: 100px;
+}
+
+/* End of Segment */
+
+/* Start of About Segment */
+#TSOI {
+    text-align: center;
+}
+
+#FBAP {
+    padding-left: 42%;
+}
+
+#ABTPB {   /*  About Page Boxes*/
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+}
+
+#ABTPB2 {   /*  About Page Boxes 2nd*/
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+}
+
+#WOTX {
+    border: solid yellowgreen;
+}
+
+#S1 {
+    text-align: center;
+}
+
+#ABPS {
+    padding-left: 15%;
+}
+
+#FBABP {
+    width: 290px;
+    height: auto;
+}
+
+#LOSP {
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 42%;
+}
+
+#TPN {
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+}
+
+#Mid1 {
+    display: flex;
+}
+
+#GSAB {
+    background-color: azure; /* Changes color of all boxes on Home page*/
+    width: 300px;
+    border: 1px solid yellowgreen;
+    padding: 2px;
+    margin: 10px;
+}
+
+#GSAB1 {
+    margin-left: 41.5%;
+}
+
