@@ -6,7 +6,7 @@ body {
     background-color: rgb(6, 39, 39);
     margin: 0;
     padding: 0;
-    cursor: url('/Html v2/Imagedupm/Home-curs.png'), auto;
+    cursor: url('Imagedupm/Home-curs.png'), auto;
 }
 
 nav ul {
@@ -100,7 +100,7 @@ h2 {
 
 
 .nv1 {
-    background-image: url("/Html v2/Imagedupm/acolyte-warcraft3.gif");
+    background-image: url("Imagedupm/acolyte-warcraft3.gif");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
