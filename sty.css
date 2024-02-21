@@ -7,12 +7,12 @@ body {
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-image: url("/Html v2/Imagedupm/Homeback.gif");
+    background-image: url("Imagedupm/Homeback.gif");
     font-family: Kode Mono, monospace;
     background-color: rgb(6, 39, 39);
     margin: 0;
     padding: 0;
-    cursor: url('/Html v2/Imagedupm/Home-curs.png'), auto;
+    cursor: url('Imagedupm/Home-curs.png'), auto;
     width: 100%
 }
 
