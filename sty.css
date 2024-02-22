@@ -1,3 +1,10 @@
+    //Reminder board edditing :current date and time
+    // Posted Here- 2024-02-21 6:00 PM
+    // This is the CSS file for the website. It is used to style the website and make it look better.
+
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
@@ -98,7 +105,6 @@ h2 {
 
 .nv1 {
     padding: 50px;
-    position: fixed;
     align-self: center;
     background-color: #000000ce;
 }
@@ -156,7 +162,6 @@ h2 {
 
 .modal {
     display: none; 
-    position: fixed; 
     z-index: 1; 
     left: 0;
     top: 0;
