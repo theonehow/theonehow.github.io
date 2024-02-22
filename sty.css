@@ -17,6 +17,7 @@ body {
 }
 
 nav ul {
+    text-align: -webkit-center;
     list-style-type: none;
     margin: 0;
     padding: 0;
