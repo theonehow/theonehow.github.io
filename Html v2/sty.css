@@ -2,18 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
 
 body {
+
     display: flex;
     flex-direction: column;
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-size: 100% 100%;
     background-image: url("/Html v2/Imagedupm/Homeback.gif");
+
     font-family: Kode Mono, monospace;
     background-color: rgb(6, 39, 39);
     margin: 0;
     padding: 0;
     cursor: url('/Html v2/Imagedupm/Home-curs.png'), auto;
     width: 100%
+
 }
 
 nav ul {
@@ -91,6 +94,30 @@ h2 {
     margin-top: 0;
 }
 
+
+.box :hover {
+    background-color: #14da8e;
+}
+
+@keyframes fadeInOut {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.h2 :hover {
+    animation: fadeInOut 2s infinite;
+}
+
+
+.nv1 {
+    background-image: url("/Html v2/Imagedupm/acolyte-warcraft3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+  
 .box h2:hover {
     background-color: #14da8e;
     animation: fadeInOut 2s infinite;
@@ -172,4 +199,5 @@ h2 {
     padding: 20px;
     border: 1px solid #14da8e;
     width: 80%; 
+
 }
