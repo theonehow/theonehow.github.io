@@ -11,6 +11,8 @@ body {
     font-family: Kode Mono, monospace;
     background-color: rgb(6, 39, 39);
     margin: 0;
+    width: auto;
+    height: auto;
     padding: 0;
     cursor: url('Imagedupm/Home-curs.png'), auto;
     width: 100%
