@@ -135,14 +135,6 @@ h2 {
     margin-top: 50px;
 }
 
-@keyframes jumping {
-    0% { transform: translateY(0%); }
-    10%{ transform: translateY(10%); }
-    20% { transform: translateY(20%); }
-    30% { transform: translateY(30%); }
-    40% { transform: translateY(40%); }
-    
-}
 
 .ftcon {
     animation: jumping 1s infinite;
@@ -154,11 +146,6 @@ h2 {
     margin-bottom: 50px;
     background-color: #14da8e73;
 }
-
-#jmpan {
-    animation: jumping 2s infinite;
-}
-
 
 .modal {
     display: none; 
