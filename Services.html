@@ -1,25 +1,8 @@
-<!-- FILEPATH: /c:/Users/dariu/Desktop/Clones/TOHub/theonehow.github.io/Services.html -->
-
 <!DOCTYPE html>
 <html>
 <head>
     <style>
         /* CSS for the First Content div */
-        .pop-out-text {
-            background-image: url(/Imagedupm/2024-02-23\ 14_22_32-@urban.png);
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 75%;
-            width: 100%;
-            background-position: center;
-            margin: 0%;
-            margin-block-start: 0%;
-            margin-block-end: 0%;
-            margin-inline-end: 0%;
-            display: flex;
-            justify-content: center;
-        }
-
         /* CSS for the navigation bar */
         .navbar {
             background-color: #333;
@@ -86,6 +69,21 @@
             float: right;
         }
 
+        .title {
+            background-image: url(/Imagedupm/2024-02-23\ 14_22_32-@urban.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 75%;
+            width: 100%;
+            background-position: center;
+            margin: 0%;
+            margin-block-start: 0%;
+            margin-block-end: 0%;
+            margin-inline-end: 0%;
+            display: flex;
+            justify-content: center;
+        }
+
         /* CSS for the font */
         body {
             font-family: "Times New Roman", Times, serif;
@@ -95,14 +93,14 @@
 </head>
 <body>
     <!-- Navigation bar -->
-<div class="navbar">
+    <div class="navbar">
         <a href="#" onclick="openNav()">Quick Links</a>
         <div class="rignav">
-                <a href="#">Services</a>
-                <a href="#">About Us</a>
-                <a href="#">Project's</a>
+            <a href="#">Services</a>
+            <a href="#">About Us</a>
+            <a href="#">Projects</a>
         </div>
-</div>
+    </div>
     
     <!-- Retractable user interface -->
     <div id="mySidebar" class="sidebar">
@@ -114,16 +112,27 @@
     
     <!-- Content area -->
     <div class="content" style="text-align: center;">
-        <div class="title">
+        <div class="title"></div>
+        <h1>We are a Central California based, and provide the following services</h1>
+        <div class="image-box">
+            <img src="image1.jpg" alt="Image 1">
+            <h1>Synthetic Grass & Grass Instalation</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="image2.jpg" alt="Image 2">
+            <h1>Concrete</h1>
+        </div>
+
+        <div class="image-box">
+            <img src="image3.jpg" alt="Image 3">
+            <h1>Irrigation</h1>
+        </div>
+        <div class="image-box">
+            <img src="image3.jpg" alt="Image 3">
+            <h1>Trash Clean Up</h1>
+        </div>
     </div>
-            <h1 class="pop-out-text";"></h1>
-                <h1>Services</h1>
-            <p>This is the content area.</p>
-        </div>
-        <div class="content" style="text-align: center;">
-            <h1>Services</h1>
-            <p style="text-align: center;">This is the content area.</p>
-        </div>
     
     <script> 
         // JavaScript functions to open and close the sidebar
