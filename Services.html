@@ -122,8 +122,6 @@
     <!-- Retractable user interface -->
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Gallery</a>
-        <a href="#">Social Media</a>
         <a href="index.html">Back To Hub</a>
     </div>
     
@@ -147,16 +145,37 @@
     <div class="image-box">
         <a href="/Imagedupm/Grass sinth.png" data-lightbox="image2" data-title="Description of Image 2">
             <img src="/Imagedupm/Grass sinth.png" alt="Image 2">
-            <h1>Synthetic grass</h1>
+            <h1>Synthetic Grass</h1>
             <p>Description of Image 2</p>
         </a>
     </div>
 </div>
-<!-- About section -->
-<div class="about-section" style="background-color: #f9f9f9; padding: 50px;">
-    <h2>About Us</h2>
-    <p>Add your content here...</p>
+
+
+
+<!-- Contact Us Section -->
+<div class="contact-section" style="background-color: #f2f2f2; padding: 50px; text-align: center;">
+    <h2>Contact Us</h2>
+    <p>Follow us on social media:</p>
+    <div class="social-media-links">
+        <a href="https://www.instagram.com/urban_edge_landscaping/" target="_blank"><img src="/Imagedupm/Ingram.png" alt="Instagram" style="height: 50px;%;"></a>
+    </div>
 </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<script>
+    // JavaScript functions to open and close the sidebar
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "200px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+    }
+</script>
+</body>
+
 
 <!-- Footer -->
 <footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
