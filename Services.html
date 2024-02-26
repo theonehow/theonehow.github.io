@@ -132,29 +132,165 @@
         <h1 style="margin-top: 50%; text-align: center; font-size: 24px; color: #fffbfb; background-color: #35343469; padding: 10px;">We are a Central California-based team dedicated to providing top-notch services to our clients.</h1>
     </div>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    
 <div class="portfolio-section" style="text-align: center; background-color: #f2f2f2; padding: 50px;">
     <h2>Services We Provide!</h2>
     <div class="image-box">
-        <img src="Imagedupm/Concretep1.png" alt="Image 1">
-        <h1>Concrete</h1>
-        <p>Description of Image 1</p>
+        <a href="Imagedupm/Concretep1.png" data-lightbox="image1" data-title="Description of Image 1">
+            <img src="Imagedupm/Concretep1.png" alt="Image 1">
+            <h1>Concrete</h1>
+            <p>Description of Image 1</p>
+        </a>
     </div>
-    <div class="image-box">
-        <img src="/Imagedupm/Grass sinth.png" alt="Image 2">
-        <h1>Synthetic grass</h1>
-        <p>Description of Image 2</p>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Imagedupm/Grass sinth.png" style="width:100%">
     </div>
-    <div class="image-box">
-        <img src="image3.jpg" alt="Image 3">
-        <h1>Irrigation</h1>
-        <p>Description of Image 4</p>
+    
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="Imagedupm/Concretep1.png" style="width:100%">
     </div>
+    
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Imagedupm/2024-02-23 14_22_32-@urban.png" style="width:100%">
+    </div>
+    
+    <!-- Navigation buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- CSS for the slideshow -->
+<style>
+    .slideshow-container {
+        position: relative;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    .fade {
+        animation: fade 1s;
+    }
+
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev,
+    .next {
+        background-color: rgba(22, 22, 22, 0.575);
+        cursor: pointer;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+</style>
+
+<!-- JavaScript for the slideshow -->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+
+</div>
+    
     <div class="image-box">
-        <img src="image4.jpg" alt="Image 4">
-        <h1>Irrigation</h1>
-        <p>Trash clean up </p>
+        <a href="/Imagedupm/Grass sinth.png" data-lightbox="image2" data-title="Description of Image 2">
+            <img src="/Imagedupm/Grass sinth.png" alt="Image 2">
+            <h1>Synthetic grass</h1>
+            <p>Description of Image 2</p>
+        </a>
     </div>
 </div>
+<!-- About section -->
+<div class="about-section" style="background-color: #f9f9f9; padding: 50px;">
+    <h2>About Us</h2>
+    <p>Add your content here...</p>
+</div>
+
+<!-- Footer -->
+<footer style="background-color: #333; color: #fff; padding: 20px; text-align: center;">
+    <p>&copy; 2024 Urban-Edge Land Scaping. All rights reserved.</p>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     
     
     <script>

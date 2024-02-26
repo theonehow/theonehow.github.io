@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        .modal img {
+            display: block;
+            margin: auto;
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+            cursor: pointer;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="/Imagedupm/2024-02-23 14_22_32-@urban.png" alt="Photo 1" onclick="openModal(this.src)">
+        <img src="/Imagedupm/acolyte-warcraft3.gif" alt="Photo 2" onclick="openModal(this.src)">
+        <img src="/Imagedupm/Concretep1.png" alt="Photo 3" onclick="openModal(this.src)">
+        <!-- Add more images here -->
+    </div>
+
+    <div class="modal" onclick="closeModal()">
+        <img id="modalImage" src="" alt="Modal Image">
+    </div>
+
+    <script>
+        function openModal(src) {
+            const modal = document.querySelector('.modal');
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = src;
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            const modal = document.querySelector('.modal');
+            modal.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
