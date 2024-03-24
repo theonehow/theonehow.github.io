@@ -1,83 +1,86 @@
+<!-- This is the main HTML file for the website -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{TO}Hub</title>
 
+    <!-- Font imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <!-- Font imports ^ -->  
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS stylesheets -->
     <link rel="stylesheet" href="sty.css" />
-    <link rel" href="sty.css" />
-    <title>{TO}Hub</title>
+
+    <style>
+        .active {
+            color: #4cee67;
+        }
+    </style>
 
 </head>
 
 <body>
-
-
+    <!-- Navigation section -->
     <div class="nv1">
-
         <div id="wtt">
             <h1>Welcome {TO}Hub</h1>
         </div>
 
-
-       <div>
-
-        </div>
-        <div>
             <nav>
                 <ul>
-                    <li><a> >About< </a></li>
+                    <li><a> >About</a></li>
                     <li><a> >Services< </a></li>
                     <li><a> >Contact< </a></li>
                 </ul>
             </nav>
-        </div>  
-    </div>
-</div>
+        </div>
 
+    <!-- Main content section -->
     <div class="container">
         <div class="box">
-            <h2> <a href="Services.html" style="color: #4cee67; text-decoration: none;">-LScaping-</a></h2>
-                <div id="con-te">
-                    <p>Here you will Find My hand Crafted Work in the Construction Industry</p>
-                </div>
-        </div>
-        <div class="box">
-            <h2>-Error-</h2>
-            <p>>Error<</p>
+            <h2><a href="Services.html" style="color: #4cee67; text-decoration: none;">-LScaping-</a></h2>
+            <div id="con-te">
+                <p>Here you will Find My hand Crafted Work in the Construction Industry</p>
+            </div>
         </div>
 
         <div class="box">
             <h2>-Error-</h2>
             <p>>Error<</p>
         </div>
-</div>
 
+        <div class="box">
+            <h2>Error</h2>
+            <p>>Error<</p>
+        </div>
+    </div>
 
-
-           
-
-
-
-
-
-
-
-
-
-
-
+    <!-- Footer section -->
     <div class="ftcon">
         <footer>
             <p>&copy; @Theonehow  &copy;</p>
         </footer>
     </div>
+
+    <!-- JavaScript -->
     <script src="script.js"></script>
+    <script>
+        function changeColor(element) {
+            var links = document.querySelectorAll("nav ul li a");
+            links.forEach(function(link) {
+                link.classList.remove("active");
+            });
+            element.classList.add("active");
+        }
+
+        function popout(element) {
+            var text = element.innerText;
+            alert(text);
+        }
+    </script>
 </body>
-
 </html>
-

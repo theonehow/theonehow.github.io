@@ -156,3 +156,11 @@ h2 {
     border: 1px solid #14da8e;
     width: 80%; 
 }
+
+.nav-item {
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #4cee67;
+}
